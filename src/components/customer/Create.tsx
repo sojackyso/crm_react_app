@@ -66,10 +66,10 @@ class Create extends React.Component<RouteComponentProps, IFormState> {
         return (
             <div>
                 <div className={"col-md-12 form-wrapper"}>
-                    <h2> Create Post </h2>
+                    <h2> Create New Customer </h2>
                     {!submitSuccess && (
                         <div className="alert alert-info" role="alert">
-                            Fill the form below to create a new post
+                            Fill the form below to create a new customer.
                     </div>
                     )}
 
