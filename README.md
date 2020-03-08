@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# TODO
+1) Styling: Highlight which page user is on.
+2) Data Governance Rules: Right now, form will take in any data. Add some restrictions around data accepted (ie, email rules, phone format).
+3) Add search bar option to filter by matching customer.
+
+# Other work to consider
+4) Add category option to add customer to either "business" or "audience".
+5) Consider fail-safe option for deleted contacts (ie, move them to a deleted list, pending full data cleanse?).
+6) Download as csv option.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -11,6 +22,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+Open [http://localhost:5000/customers](http://localhost:5000/customers) to view customer database in json format.
 
 ### `yarn test`
 
