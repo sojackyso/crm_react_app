@@ -1,8 +1,48 @@
-.App {
-  text-align: center;
+/* use bootstrap for responsive and flexible styling */
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css';
+
+.form-wrapper {
+  width: 500px;
+  margin: 0 auto;
 }
 
-.App-logo {
+.App {
+  text-align: center;
+  margin-top: 30px;
+}
+
+nav {
+  width: 300px;
+  margin: 0 auto;
+  background: #282c34;
+  height: 70px;
+  line-height: 70px;
+}
+
+nav ul li {
+  display: inline;
+  list-style-type: none;
+  text-align: center;
+  padding: 30px;
+}
+
+nav ul li a {
+  margin: 50px 0;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+table {
+  margin-top: 50px;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -22,7 +62,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
