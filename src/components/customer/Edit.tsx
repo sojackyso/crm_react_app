@@ -29,5 +29,14 @@ class EditCustomer extends React.Component<RouteComponentProps<any>, IFormState>
             submitSuccess: false,
         }
     }
+
+    // check network request from client side to match customer with their data in db
+    // customers matched by id
+    public componentDidMount(): void {
+        axios.get(`http://localhost:5000/customers/${this.state.id}`).then(data => {
+            this.setState({ customer: data.data });
+        })
+    }
+    
 }
 export default withRouter(EditCustomer)
