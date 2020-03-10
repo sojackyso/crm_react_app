@@ -1,6 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # TODO
+Consider validating each field as user enters data (valid phone, valid email, valid usps address).
+
+See https://www.npmjs.com/package/libphonenumber-js
+
 1) Styling: Highlight which page user is on.
 2) Data Governance Rules: Right now, form will take in any data. Add some restrictions around data accepted (ie, email rules, phone format).
 3) Add search bar option to filter by matching customer.
