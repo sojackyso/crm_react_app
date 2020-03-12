@@ -12,7 +12,7 @@
 }
 
 nav {
-  width: 300px;
+  width: 420px;
   margin: 0 auto;
   background: #282c34;
   height: 70px;
@@ -24,6 +24,11 @@ nav ul li {
   list-style-type: none;
   text-align: center;
   padding: 30px;
+}
+
+nav ul li:hover {
+  background: #33c1ff;
+  text-decoration: none;
 }
 
 nav ul li a {

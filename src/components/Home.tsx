@@ -43,8 +43,8 @@ export default class Home extends React.Component<RouteComponentProps, IState> {
                         <table className="table table-bordered">
                             <thead className="thead-light">
                                 <tr>
-                                    <th scope="col">Firstname</th>
-                                    <th scope="col">Lastname</th>
+                                    <th scope="col">First name</th>
+                                    <th scope="col">Last name</th>
                                     <th scope="col">Email</th>
                                     <th scope="col">Phone</th>
                                     <th scope="col">Address</th>
