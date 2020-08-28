@@ -15,9 +15,9 @@ See https://www.npmjs.com/package/libphonenumber-js
 6) Download as csv option.
 
 
-## Available Scripts
+## Common Scripts to Run
 
-In the project directory, you can run:
+In the project directory, run:
 
 ### `yarn start`
 
@@ -54,8 +54,8 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Troubleshoot
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+More in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+React doc: [React documentation](https://reactjs.org/).
