@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 # TODO
 Consider validating each field as user enters data (valid phone, valid email, valid usps address).
